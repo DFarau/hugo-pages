@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "github",
+      "url": "https://github.com/DFarau",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/doriane-farau-a00a46171/",
+      "image": "images/social/linkedin.svg"
+    }
+  ]
+}
