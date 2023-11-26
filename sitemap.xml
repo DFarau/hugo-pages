@@ -2,17 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dfarau.github.io/hugo-pages/posts/first-post/</loc>
-    <lastmod>2023-11-14T11:43:10+01:00</lastmod>
+    <loc>https://dfarau.github.io/hugo-pages/posts/hugo-framework/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/posts/github-pages/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/posts/automatisation/</loc>
+    <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/posts/dynamic-content/</loc>
+    <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/posts/static-site/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/posts/personalization/</loc>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dfarau.github.io/hugo-pages/</loc>
-    <lastmod>2023-11-14T11:43:10+01:00</lastmod>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/tags/personnalisation/</loc>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dfarau.github.io/hugo-pages/posts/</loc>
-    <lastmod>2023-11-14T11:43:10+01:00</lastmod>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/tags/</loc>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/tags/documentation/</loc>
+    <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/tags/github-pages/</loc>
+    <lastmod>2023-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dfarau.github.io/hugo-pages/tags/hugo/</loc>
+    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dfarau.github.io/hugo-pages/categories/</loc>
   </url><url>
-    <loc>https://dfarau.github.io/hugo-pages/tags/</loc>
+    <loc>https://dfarau.github.io/hugo-pages/contact/</loc>
   </url>
 </urlset>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Le framework Hugo - Hugo &amp; Github Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://dfarau.github.io/hugo-pages/favicon.png">
+  <link rel="canonical" href="https://dfarau.github.io/hugo-pages/posts/hugo-framework/" />
+    
+    
+    <link rel="stylesheet" href="/hugo-pages/css/style.min.9696cbe5cde1770cb07bc22cab0a0f583a91b5eccbd6d13ca03c8807df36eb75.css">
+    <link rel="stylesheet" href="/hugo-pages/assets/css/extended.min.9729f28a5087b689b946e103d96abd63bfd37b1417effa251dbf798312e3fba5.css">
+    <link rel="stylesheet" href="https://dfarau.github.io/hugo-pages/css//styles.css">
+  
+    <meta name="description" content="Hugo, un framework de création de sites web. Populaire en tant que générateur de sites statiques open source, Hugo offre une expérience de création web plaisante grâce à sa vitesse et sa flexibilité."/>
+    <meta property="og:title" content="Le framework Hugo"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://dfarau.github.io/hugo-pages/posts/hugo-framework/"/>
+    <meta property="og:image" content="https://dfarau.github.io/hugo-pages/images/hugo-logo.png"/>
+    <meta property="og:description" content="Hugo, un framework de création de sites web. Populaire en tant que générateur de sites statiques open source, Hugo offre une expérience de création web plaisante grâce à sa vitesse et sa flexibilité."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+
+  
+</head>
+
+
+
+
+<body class='page frame '>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="https://dfarau.github.io/hugo-pages/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="https://dfarau.github.io/hugo-pages/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="https://dfarau.github.io/hugo-pages/tags/">Tags</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-contact">
+                    <a href="https://dfarau.github.io/hugo-pages/contact/">Contact</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/hugo-pages/">Hugo &amp; Github Pages</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/hugo-pages/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/hugo-pages/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/hugo-pages/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-contact ">
+        <a href="/hugo-pages/contact/">
+          
+          <span>Contact</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <head>
+  </head>
+  <body>
+    <div class="blog">
+      
+      <div class="intro">
+        
+          <img alt="hugo-logo" src="/hugo-pages/images/hugo-logo.png" />
+        
+        <h1>Le framework Hugo<span class="dot">.</span></h1>   
+      </div>
+      <div class="content">
+        <h2 id="introduction">Introduction</h2>
+<p>Hugo est un framework de site web <strong>polyvalent</strong> qui permet de générer un site statique avec Go. Contrairement aux systèmes qui construisent dynamiquement une page à chaque demande de visiteur, Hugo construit des pages lorsque l&rsquo;on crée ou met à jour le contenu. Hugo est conçu pour offrir une expérience de visualisation optimale aux utilisateurs finaux et une expérience d&rsquo;écriture idéale pour les auteurs de sites web.</p>
+<p>Les sites web construits avec Hugo sont extrêmement <strong>rapides</strong> et <strong>sécurisés</strong>. Les sites Hugo peuvent être hébergés n&rsquo;importe où, y compris sur GitHub Pages, Netlify, Heroku, GoDaddy, DreamHost, GitLab Pages, Surge, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, CloudFront et fonctionnent bien avec les CDN. Les sites Hugo fonctionnent sans avoir besoin d&rsquo;une base de données ou de dépendances à des runtimes tels que Ruby, Python ou PHP.</p>
+<h2 id="hugo-un-générateur-de-site-statique">Hugo, un générateur de site statique</h2>
+<p>Les fichiers HTML générés par Hugo ne sont pas créés de manière dynamique.
+Cela signifie que le contenu des pages web n&rsquo;est pas généré à la demande au moment où un utilisateur visite le site. Au lieu de cela, tous les fichiers HTML sont pré-générés à l&rsquo;avance.</p>
+<p>Hugo est donc qualifié de &ldquo;générateur de site statique&rdquo;. (<a href="../static-site">En savoir plus sur les sites statiques</a>)</p>
+<blockquote>
+<p>Cela présente des avantages en termes de <strong>performances</strong>, de <strong>sécurité</strong> et de <strong>facilité de mise en cache</strong>, car les fichiers HTML ne changent pas fréquemment.</p>
+</blockquote>
+<p>Comparé à un site web dynamique, un site basé sur un serveur HTTP peut traiter un nombre similaire de pages avec une fraction des ressources (mémoire et puissance CPU) nécessaires.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CdiDYZ51a2o?si=EpT8hggio0k5OS8g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="structure-du-site">Structure du site</h2>
+<p>La structure d&rsquo;un site Hugo est cruciale pour organiser efficacement le contenu, les modèles, les thèmes, et d&rsquo;autres éléments. Comprendre cette architecture facilite la personnalisation et la gestion du site.</p>
+<h3 id="1-arborescence-de-répertoires">1. Arborescence de répertoires</h3>
+<ul>
+<li>
+<p><strong>archetypes</strong> : ce répertoire contient des modèles de contenu par défaut. Lorsque vous créez un nouveau contenu, Hugo utilise ces modèles comme point de départ. Cela permet d&rsquo;éviter de saisir manuellement les métadonnées à chaque fois.</p>
+</li>
+<li>
+<p><strong>content</strong> : le cœur du site réside dans le répertoire content. Il abrite l&rsquo;ensemble du contenu du site, y compris les articles, les pages, et tout autre élément textuel. La structure des sous-répertoires facilite l&rsquo;organisation et la hiérarchie du contenu.</p>
+</li>
+<li>
+<p><strong>data</strong> : Hugo prend en charge l&rsquo;utilisation de fichiers de données externes. Le répertoire data est l&rsquo;endroit où ces fichiers peuvent être stockés. Ces données peuvent être utilisées pour générer du contenu dynamique ou pour alimenter des modèles spécifiques.</p>
+</li>
+<li>
+<p><strong>layouts</strong> : les fichiers de mise en page sont stockés ici. Ces fichiers définissent la structure et la présentation du contenu. Les modèles peuvent être spécifiques à un type de contenu (par exemple, single.html pour un article individuel) ou plus généraux.</p>
+</li>
+<li>
+<p><strong>static</strong> : le répertoire static est destiné à tout le contenu statique du site, tel que les images, les fichiers CSS, les fichiers JavaScript, etc. Ce contenu est directement copié dans le répertoire de sortie lors de la génération du site.</p>
+</li>
+<li>
+<p><strong>themes</strong> : les thèmes sont essentiels pour personnaliser l&rsquo;apparence du site. Vous pouvez installer des thèmes tiers en les clonant dans le répertoire themes. Hugo recherche les fichiers de thème dans ce répertoire pour appliquer les styles et les mises en page au site.</p>
+</li>
+<li>
+<p><strong>config.toml, config.yaml ou config.json</strong> : le fichier de configuration central du site. Il contient des paramètres tels que le titre du site, la langue, les paramètres de mise en page, et d&rsquo;autres configurations essentielles. La modification de ce fichier permet de personnaliser divers aspects du site.</p>
+</li>
+</ul>
+<h3 id="2-configurations-du-site">2. Configurations du site</h3>
+<p>Le fichier config.toml détient une variété de configurations clés pour le site Hugo. Certaines de ces configurations incluent :</p>
+<ul>
+<li>
+<p><strong>Paramètres du site</strong> : titre, description, langue, etc.</p>
+</li>
+<li>
+<p><strong>Paramètres de rendu</strong> : formats de date, formats de permalien, etc.</p>
+</li>
+<li>
+<p><strong>Paramètres du serveur de développement</strong> : port, rechargement automatique, etc.</p>
+</li>
+<li>
+<p><strong>Paramètres de taxonomie</strong> : configuration des catégories et des balises.</p>
+</li>
+<li>
+<p><strong>Paramètres des menus</strong> : définition des menus de navigation.</p>
+</li>
+</ul>
+<p>Modifier ce fichier permet d&rsquo;adapter le site en fonction des besoins spécifiques du projet.</p>
+<h2 id="les-thèmes">Les thèmes</h2>
+<h3 id="1-installation">1. Installation</h3>
+<p>Les thèmes sont généralement hébergés sur des dépôts Git.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ clone URL-du-theme themes/nom-du-theme
+</span></span></code></pre></div><h3 id="2-activation">2. Activation</h3>
+<p>Il faut spécifier le thème actif dans le fichier de configuration config.toml.</p>
+<p><a id="mon-endroit-specifique"></a></p>
+<h3 id="3-personnalisation">3. Personnalisation</h3>
+<ul>
+<li>
+<p><strong>Fichiers de surcharge</strong> : pour personnaliser un fichier de mise en page spécifique, il faut créer un fichier avec le même chemin relatif dans le répertoire layouts du site. Hugo priorise les fichiers du site à ceux ceux du thème.</p>
+</li>
+<li>
+<p><strong>Variables de configuration</strong> : certains thèmes permettent la personnalisation via des variables définies dans le fichier de configuration config.toml.</p>
+</li>
+<li>
+<p><strong>Utilisation de shortcodes</strong> : les shortcodes sont des fragments de code réutilisables que vous pouvez insérer dans vos contenus. Ils sont particulièrement utiles pour ajouter des fonctionnalités spécifiques sans avoir à modifier directement les modèles.</p>
+</li>
+</ul>
+<p>(<a href="../personalization">En savoir plus sur la personnalisation</a>)</p>
+<h2 id="modèles-et-mises-en-page">Modèles et mises en page</h2>
+<h3 id="1-modèles">1. Modèles</h3>
+<ul>
+<li>
+<p><strong>Structure des modèles</strong> : les fichiers de modèles sont généralement stockés dans le répertoire layouts. La structure de ces fichiers dépend du type de contenu auquel ils sont associés. Par exemple, un fichier single.html est utilisé pour définir le modèle d&rsquo;une page unique.</p>
+</li>
+<li>
+<p><strong>Balises de modèle</strong> : les balises de modèle sont des éléments spéciaux entourés de doubles accolades {{}}. Elles sont utilisées pour incorporer du contenu dynamique, des variables, et des conditions dans le modèle.</p>
+</li>
+<li>
+<p><strong>Fichiers partiels</strong> : les fichiers partiels, stockés dans le répertoire partials, sont des fragments de code réutilisables. Ils peuvent être inclus dans d&rsquo;autres fichiers de modèles pour éviter la redondance du code.</p>
+</li>
+<li>
+<p><strong>Variables de contenu</strong> : les variables spécifiques au contenu, telles que .Title, .Date, et .Content, permettent d&rsquo;accéder aux métadonnées et au contenu du fichier source associé.</p>
+</li>
+</ul>
+<h3 id="2-mises-en-page">2. Mises en page</h3>
+<ul>
+<li>
+<p><strong>Hiérarchie des mises en page</strong> : les fichiers de mise en page peuvent être spécifiques à un type de contenu (comme single.html pour un article unique) ou plus généraux (comme list.html pour une liste de contenu). Hugo applique ces mises en page en fonction du type de contenu.</p>
+</li>
+<li>
+<p><strong>Fichiers d&rsquo;index</strong> : les fichiers d&rsquo;index, tels que index.html dans le répertoire racine de layouts, définissent la mise en page par défaut pour les pages principales du site.</p>
+</li>
+<li>
+<p><strong>Mises en page de section</strong> : Hugo permet de définir des mises en page spécifiques pour des sections particulières du site. Par exemple, le fichier layouts/section/nom-de-section.html définira la mise en page pour toutes les pages appartenant à cette section.</p>
+</li>
+</ul>
+<h3 id="3-personnalisation-des-modèles-et-des-mises-en-page">3. Personnalisation des modèles et des mises en page</h3>
+<p>La personnalisation se fait de la même manière que pour les thèmes:</p>
+<ul>
+<li>
+<p><strong>Fichiers de surcharge</strong></p>
+</li>
+<li>
+<p><strong>Variables de configuration</strong></p>
+</li>
+<li>
+<p><strong>Utilisation de shortcodes</strong></p>
+</li>
+</ul>
+<p>(<a href="#mon-endroit-specifique">Voir &ldquo;personnalisation&rdquo; d&rsquo;un thème</a>)</p>
+<h2 id="les-shortcodes">Les shortcodes</h2>
+<h3 id="1-structure-dun-shortcode">1. Structure d&rsquo;un shortcode</h3>
+<p>Un shortcode dans Hugo est généralement constitué de deux parties principales, délimitées par des balises doubles accolades {{&hellip;}} :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">variable</span> <span style="color:#f92672">:=</span> .<span style="color:#a6e22e">Get</span> <span style="color:#e6db74">&#34;paramètre&#34;</span> | <span style="color:#66d9ef">default</span> <span style="color:#e6db74">&#34;valeur par défaut&#34;</span> }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#a6e22e">div</span> <span style="color:#a6e22e">class</span>=<span style="color:#e6db74">&#34;classe-dynamique-{{ $variable }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  {{ .<span style="color:#a6e22e">Inner</span> | <span style="color:#a6e22e">markdownify</span> }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">div</span>&gt;
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Déclaration de variables</strong> : la première partie du shortcode peut inclure des déclarations de variables en utilisant la syntaxe Go, permettant de récupérer des paramètres spécifiés lors de l&rsquo;utilisation du shortcode. Dans l&rsquo;exemple, $variable est définie en fonction du paramètre &ldquo;paramètre&rdquo;, avec une valeur par défaut si le paramètre n&rsquo;est pas spécifié.</p>
+</li>
+<li>
+<p><strong>Utilisation des variables</strong> : les variables déclarées peuvent ensuite être utilisées dans le reste du shortcode. Par exemple, $variable est utilisée pour dynamiquement définir une classe dans une balise <code>&lt;div&gt;</code>.</p>
+</li>
+<li>
+<p><strong>Contenu interne</strong> : la section {{ .Inner | markdownify }} permet d&rsquo;incorporer le contenu interne du shortcode. Ce contenu peut être traité avec des opérations de pipeline, comme markdownify pour interpréter les balises Markdown.</p>
+</li>
+</ul>
+<h3 id="2-utilisation">2. Utilisation</h3>
+<p>Pour utiliser un shortcode dans une page ou un article Hugo, il faut insérer le shortcode avec la syntaxe <code>{{</code>&lt; link param=&ldquo;valeur&rdquo; &gt;<code>}}</code>.</p>
+<h2 id="taxonomies">Taxonomies</h2>
+<p>Les taxonomies sont des classifications hiérarchiques pour organiser le contenu. Il existe deux types principaux de taxonomies : les taxonomies de catégories (ou de sections) et les taxonomies de tags. Ces deux types sont souvent utilisés pour trier et filtrer le contenu.</p>
+<h3 id="1-configuration">1. Configuration</h3>
+<p>Pour utiliser les taxonomies, il faut les définir dans le fichier de configuration config.toml. Par exemple, pour activer une taxonomie &ldquo;categorie&rdquo; :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>[<span style="color:#a6e22e">taxonomies</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">categorie</span> = <span style="color:#e6db74">&#34;categories&#34;</span>
+</span></span></code></pre></div><h3 id="2-attribution-au-contenu">2. Attribution au contenu</h3>
+<p>Dans le front matter de chaque contenu, il est possible d&rsquo;attribuer des valeurs de taxonomie. Par exemple, dans un fichier Markdown :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">---</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span>: <span style="color:#e6db74">&#34;Mon Article&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">categories</span>: [<span style="color:#e6db74">&#34;Technologie&#34;</span>, <span style="color:#e6db74">&#34;Développement&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">tags</span>: [<span style="color:#e6db74">&#34;Hugo&#34;</span>, <span style="color:#e6db74">&#34;Web&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">---</span>
+</span></span></code></pre></div><h3 id="3-utilisation-dans-les-modèles">3. Utilisation dans les modèles</h3>
+<p>Il est possible de personnaliser la manière dont les pages de taxonomie sont affichées en créant des modèles spécifiques. Les fichiers de modèle pour les pages de taxonomie sont généralement stockés dans le répertoire layouts/_default/taxonomy.</p>
+<h2 id="contenu-dynamique">Contenu dynamique</h2>
+<p>Hugo prend en charge la génération de contenu dynamique (<a href="../dynamic-content">En savoir plus</a>) à l&rsquo;aide de fichiers de données externes. Ces données peuvent être utilisées pour créer des listes de pages, des menus, ou pour alimenter des modèles spécifiques.</p>
+<h2 id="déploiement">Déploiement</h2>
+<p>Une fois le site prêt, la génération des fichiers statiques se fait avec la commande hugo. Les fichiers résultants se trouvent dans le répertoire public. Il est possible de les déployer sur n&rsquo;importe quel service d&rsquo;hébergement statique de votre choix.</p>
+
+      </div>
+    </div>
+  </body>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/DFarau" title="github" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/doriane-farau-a00a46171/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/hugo-pages/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+</body>
+</html>

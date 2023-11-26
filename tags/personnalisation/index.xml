@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personnalisation on Hugo &amp; Github Pages</title>
+    <link>https://dfarau.github.io/hugo-pages/tags/personnalisation/</link>
+    <description>Recent content in Personnalisation on Hugo &amp; Github Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dfarau.github.io/hugo-pages/tags/personnalisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La personnalisation en détail</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/personalization/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/personalization/</guid>
+      <description>Toutes les méthodes de personnalisation avec Hugo Les Thèmes 1. Choisir et installer un thème Hugo propose une bibliothèque de thèmes que l&#39;on peut utiliser pour donner à un site une apparence prête à l&#39;emploi. Le choix du thème se fait en parcourant la bibliothèque sur le site Hugo dans la rubrique Themes et en suivant les instructions du thème pour l&#39;installer. 2. Configurer le thème La plupart des thèmes ont un fichier de configuration (par exemple config.</description>
+    </item>
+  </channel>
+</rss>

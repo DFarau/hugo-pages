@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Hugo &amp; Github Pages</title>
+    <link>https://dfarau.github.io/hugo-pages/tags/documentation/</link>
+    <description>Recent content in Documentation on Hugo &amp; Github Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dfarau.github.io/hugo-pages/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatisation du déploiement et dossier public</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/automatisation/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/automatisation/</guid>
+      <description>Automatisation du déploiement L&amp;rsquo;automatisation du déploiement avec le dossier &amp;ldquo;public&amp;rdquo; sur la branche &amp;ldquo;gh-pages&amp;rdquo; apporte une efficacité significative, une réduction des erreurs et une facilité de gestion, contribuant à un cycle de développement plus rapide et fiable
+Avantages Simplicité du processus : simplifie le processus de déploiement en évitant aux utilisateurs de se rappeler des étapes spécifiques. En automatisant, il suffit de déclencher le processus, et celui-ci s&amp;rsquo;occupe de tout, de la génération du site à son déploiement sur GitHub Pages.</description>
+    </item>
+    <item>
+      <title>Le contenu dynamique</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/dynamic-content/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/dynamic-content/</guid>
+      <description>La gestion du contenu dynamique dans Hugo offre une flexibilité considérable pour créer des sites web riches en fonctionnalités et qui s&amp;rsquo;adaptent aux besoins des utilisateurs
+Fichiers markdown Les fichiers Markdown constituent la base du contenu dans Hugo. Chaque page, article, ou section du site est généralement représenté par un fichier Markdown. Ces fichiers contiennent du contenu textuel, structuré à l&amp;rsquo;aide de balises Markdown:
+Titres : utilisez # pour les titres, ## pour les sous-titres, etc.</description>
+    </item>
+    <item>
+      <title>Les sites statiques</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/static-site/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/static-site/</guid>
+      <description>Introduction Des performances améliorées, une sécurité accrue et une facilité d&amp;rsquo;utilisation sont autant de raisons qui rendent les générateurs de sites statiques attrayants.
+L&amp;rsquo;objectif des générateurs de sites web est de transformer le contenu en fichiers HTML. La plupart d&amp;rsquo;entre eux sont des &amp;ldquo;générateurs de sites dynamiques&amp;rdquo;. Cela signifie que le serveur HTTP, c&amp;rsquo;est-à-dire le programme qui envoie les fichiers au navigateur pour être visualisés, exécute le générateur pour créer un nouveau fichier HTML chaque fois qu&amp;rsquo;un utilisateur final demande une page.</description>
+    </item>
+  </channel>
+</rss>

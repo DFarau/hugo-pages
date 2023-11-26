@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Le contenu dynamique - Hugo &amp; Github Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://dfarau.github.io/hugo-pages/favicon.png">
+  <link rel="canonical" href="https://dfarau.github.io/hugo-pages/posts/dynamic-content/" />
+    
+    
+    <link rel="stylesheet" href="/hugo-pages/css/style.min.9696cbe5cde1770cb07bc22cab0a0f583a91b5eccbd6d13ca03c8807df36eb75.css">
+    <link rel="stylesheet" href="/hugo-pages/assets/css/extended.min.9729f28a5087b689b946e103d96abd63bfd37b1417effa251dbf798312e3fba5.css">
+    <link rel="stylesheet" href="https://dfarau.github.io/hugo-pages/css//styles.css">
+  
+    <meta name="description" content="Un langage de balisage léger : les bases de sa syntaxe et son utilisation dans Hugo."/>
+    <meta property="og:title" content="Le contenu dynamique"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://dfarau.github.io/hugo-pages/posts/dynamic-content/"/>
+    
+    <meta property="og:description" content="Un langage de balisage léger : les bases de sa syntaxe et son utilisation dans Hugo."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+
+  
+</head>
+
+
+
+
+<body class='page frame '>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="https://dfarau.github.io/hugo-pages/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="https://dfarau.github.io/hugo-pages/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="https://dfarau.github.io/hugo-pages/tags/">Tags</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-contact">
+                    <a href="https://dfarau.github.io/hugo-pages/contact/">Contact</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/hugo-pages/">Hugo &amp; Github Pages</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/hugo-pages/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/hugo-pages/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/hugo-pages/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-contact ">
+        <a href="/hugo-pages/contact/">
+          
+          <span>Contact</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <head>
+  </head>
+  <body>
+    <div class="blog">
+      
+      <div class="intro">
+        
+        <h1>Le contenu dynamique<span class="dot">.</span></h1>   
+      </div>
+      <div class="content">
+        <p>La gestion du contenu dynamique dans Hugo offre une flexibilité considérable pour créer des sites web riches en fonctionnalités et qui s&rsquo;adaptent aux besoins des utilisateurs</p>
+<h2 id="fichiers-markdown">Fichiers markdown</h2>
+<p>Les fichiers Markdown constituent la base du contenu dans Hugo. Chaque page, article, ou section du site est généralement représenté par un fichier Markdown. Ces fichiers contiennent du contenu textuel, structuré à l&rsquo;aide de balises Markdown:</p>
+<ul>
+<li>Titres : utilisez # pour les titres, ## pour les sous-titres, etc.</li>
+<li>Paragraphes : séparez les paragraphes par des lignes vides.</li>
+<li>Liens : <a href="URL">Texte du lien</a>.</li>
+<li>Images : ![Texte alternatif](URL de l’image).</li>
+<li>Listes : utilisez - ou * pour les listes à puces, et des chiffres pour les listes ordonnées.</li>
+<li>Gras et Italique : <strong>gras</strong>, <em>Italique</em>.</li>
+</ul>
+<h2 id="front-matter">Front matter</h2>
+<p>Chaque fichier Markdown peut inclure une section appelée &ldquo;front matter&rdquo; située entre deux lignes de trois tirets (&mdash;). Cette section est utilisée pour définir des métadonnées spécifiques à la page, telles que le titre, les tags, les catégories, etc. Les métadonnées varient en fonction du type de contenu.</p>
+<p>Exemple de front matter :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">---</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span>: <span style="color:#e6db74">&#34;Mon Article&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">date</span>: <span style="color:#ae81ff">2023</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">tags</span>: [<span style="color:#e6db74">&#34;Hugo&#34;</span>, <span style="color:#e6db74">&#34;Web&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">categories</span>: [<span style="color:#e6db74">&#34;Développement&#34;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#f92672">---</span>
+</span></span></code></pre></div><h2 id="pages">Pages</h2>
+<p>Dans Hugo, les pages peuvent être de différents types, tels que page, post, section, etc. Chaque type de page peut avoir son propre modèle associé, déterminant la façon dont le contenu est affiché.</p>
+<h2 id="listes-et-boucles">Listes et boucles</h2>
+<p>Il est possible d&rsquo;utiliser des boucles pour itérer sur des pages spécifiques et afficher dynamiquement le contenu.</p>
+<p>Exemple de boucle pour afficher une liste d&rsquo;articles :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">where</span> .<span style="color:#a6e22e">Pages</span> <span style="color:#e6db74">&#34;Type&#34;</span> <span style="color:#e6db74">&#34;post&#34;</span> }}
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">h2</span>&gt;{{ .<span style="color:#a6e22e">Title</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h2</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">p</span>&gt;{{ .<span style="color:#a6e22e">Summary</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+</span></span><span style="display:flex;"><span>{{ <span style="color:#a6e22e">end</span> }}
+</span></span></code></pre></div><h2 id="paramètres-de-configuration">Paramètres de configuration</h2>
+<p>Le fichier config.toml permet de configurer divers aspects du site, y compris des paramètres liés au contenu dynamique. On peut y définir des variables globales, spécifier des chemins, activer ou désactiver des fonctionnalités, etc.</p>
+<p>Exemple de configuration pour activer la génération des pages en plusieurs langues :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>]
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentDir</span> = <span style="color:#e6db74">&#34;content/en&#34;</span>
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">fr</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentDir</span> = <span style="color:#e6db74">&#34;content/fr&#34;</span>
+</span></span></code></pre></div><h2 id="formats-de-contenu-alternatifs">Formats de contenu alternatifs</h2>
+<p>Hugo prend en charge différents formats de contenu pour une même page. Il peut y avoir une page avec du contenu Markdown, mais également fournir une version en HTML, JSON, etc. Cela permet de rendre le contenu accessible de différentes manières.</p>
+<h2 id="contenu-imbriqué">Contenu imbriqué</h2>
+<p>Il est possible d&rsquo;imbriquer du contenu les uns dans les autres pour créer des structures complexes. Par exemple, un répertoire peut contenir des sections, qui contiennent des pages, qui contiennent des sections, et ainsi de suite.</p>
+<h2 id="shortcodes">Shortcodes</h2>
+<p>Les shortcodes sont des fragments de code réutilisables qui permettent d&rsquo;ajouter des fonctionnalités spécifiques dans le contenu d&rsquo;une page. Cela facilite l&rsquo;insertion de contenu dynamique sans avoir à répéter du code HTML complexe.</p>
+<h2 id="génération-conditionnelle">Génération conditionnelle</h2>
+<p>Hugo offre des fonctionnalités de génération conditionnelle qui permettent de décider d&rsquo;afficher ou non certains éléments en fonction de critères spécifiques, tels que la date de publication, les tags, etc.</p>
+<p>Exemple de génération conditionnelle basée sur les tags :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">in</span> .<span style="color:#a6e22e">Params</span>.<span style="color:#a6e22e">tags</span> <span style="color:#e6db74">&#34;important&#34;</span> }}
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">Cet</span> <span style="color:#a6e22e">article</span> <span style="color:#a6e22e">est</span> <span style="color:#a6e22e">marqué</span> <span style="color:#a6e22e">comme</span> <span style="color:#a6e22e">important</span>.&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+</span></span><span style="display:flex;"><span>{{ <span style="color:#a6e22e">end</span> }}
+</span></span></code></pre></div>
+      </div>
+    </div>
+  </body>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/DFarau" title="github" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/doriane-farau-a00a46171/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/hugo-pages/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+</body>
+</html>

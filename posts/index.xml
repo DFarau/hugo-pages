@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Hugo &amp; Github Pages</title>
     <link>https://dfarau.github.io/hugo-pages/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Hugo &amp; Github Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Nov 2023 11:43:10 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dfarau.github.io/hugo-pages/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://dfarau.github.io/hugo-pages/posts/first-post/</link>
-      <pubDate>Tue, 14 Nov 2023 11:43:10 +0100</pubDate>
-      <guid>https://dfarau.github.io/hugo-pages/posts/first-post/</guid>
-      <description></description>
+      <title>Le framework Hugo</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/hugo-framework/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/hugo-framework/</guid>
+      <description>Introduction Hugo est un framework de site web polyvalent qui permet de générer un site statique avec Go. Contrairement aux systèmes qui construisent dynamiquement une page à chaque demande de visiteur, Hugo construit des pages lorsque l&amp;rsquo;on crée ou met à jour le contenu. Hugo est conçu pour offrir une expérience de visualisation optimale aux utilisateurs finaux et une expérience d&amp;rsquo;écriture idéale pour les auteurs de sites web.
+Les sites web construits avec Hugo sont extrêmement rapides et sécurisés.</description>
+    </item>
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/github-pages/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/github-pages/</guid>
+      <description>GitHub Pages est un service d&amp;rsquo;hébergement web statique fourni par GitHub, la plateforme de développement collaborative basée sur Git. Il permet aux utilisateurs de publier des sites web directement à partir de leurs repositories GitHub, offrant ainsi une solution simple et gratuite pour partager des pages web, de la documentation, des portfolios, des blogs, et d&amp;rsquo;autres contenus statiques en ligne.
+Principales caractéristiques de GitHub Pages Hébergement gratuit : hébergement gratuit pour les sites web statiques, ce qui le rend accessible à un large éventail d&amp;rsquo;utilisateurs, en particulier pour les projets open source, les pages personnelles, les blogs, et les sites d&amp;rsquo;apprentissage.</description>
+    </item>
+    <item>
+      <title>Automatisation du déploiement et dossier public</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/automatisation/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/automatisation/</guid>
+      <description>Automatisation du déploiement L&amp;rsquo;automatisation du déploiement avec le dossier &amp;ldquo;public&amp;rdquo; sur la branche &amp;ldquo;gh-pages&amp;rdquo; apporte une efficacité significative, une réduction des erreurs et une facilité de gestion, contribuant à un cycle de développement plus rapide et fiable
+Avantages Simplicité du processus : simplifie le processus de déploiement en évitant aux utilisateurs de se rappeler des étapes spécifiques. En automatisant, il suffit de déclencher le processus, et celui-ci s&amp;rsquo;occupe de tout, de la génération du site à son déploiement sur GitHub Pages.</description>
+    </item>
+    <item>
+      <title>Le contenu dynamique</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/dynamic-content/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/dynamic-content/</guid>
+      <description>La gestion du contenu dynamique dans Hugo offre une flexibilité considérable pour créer des sites web riches en fonctionnalités et qui s&amp;rsquo;adaptent aux besoins des utilisateurs
+Fichiers markdown Les fichiers Markdown constituent la base du contenu dans Hugo. Chaque page, article, ou section du site est généralement représenté par un fichier Markdown. Ces fichiers contiennent du contenu textuel, structuré à l&amp;rsquo;aide de balises Markdown:
+Titres : utilisez # pour les titres, ## pour les sous-titres, etc.</description>
+    </item>
+    <item>
+      <title>Les sites statiques</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/static-site/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/static-site/</guid>
+      <description>Introduction Des performances améliorées, une sécurité accrue et une facilité d&amp;rsquo;utilisation sont autant de raisons qui rendent les générateurs de sites statiques attrayants.
+L&amp;rsquo;objectif des générateurs de sites web est de transformer le contenu en fichiers HTML. La plupart d&amp;rsquo;entre eux sont des &amp;ldquo;générateurs de sites dynamiques&amp;rdquo;. Cela signifie que le serveur HTTP, c&amp;rsquo;est-à-dire le programme qui envoie les fichiers au navigateur pour être visualisés, exécute le générateur pour créer un nouveau fichier HTML chaque fois qu&amp;rsquo;un utilisateur final demande une page.</description>
+    </item>
+    <item>
+      <title>La personnalisation en détail</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/personalization/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/personalization/</guid>
+      <description>Toutes les méthodes de personnalisation avec Hugo Les Thèmes 1. Choisir et installer un thème Hugo propose une bibliothèque de thèmes que l&#39;on peut utiliser pour donner à un site une apparence prête à l&#39;emploi. Le choix du thème se fait en parcourant la bibliothèque sur le site Hugo dans la rubrique Themes et en suivant les instructions du thème pour l&#39;installer. 2. Configurer le thème La plupart des thèmes ont un fichier de configuration (par exemple config.</description>
     </item>
   </channel>
 </rss>

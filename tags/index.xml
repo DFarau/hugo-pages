@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>Tags on Hugo &amp; Github Pages</title>
     <link>https://dfarau.github.io/hugo-pages/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in Tags on Hugo &amp; Github Pages</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dfarau.github.io/hugo-pages/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personnalisation</title>
+      <link>https://dfarau.github.io/hugo-pages/tags/personnalisation/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/tags/personnalisation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>https://dfarau.github.io/hugo-pages/tags/documentation/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Pages</title>
+      <link>https://dfarau.github.io/hugo-pages/tags/github-pages/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://dfarau.github.io/hugo-pages/tags/hugo/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

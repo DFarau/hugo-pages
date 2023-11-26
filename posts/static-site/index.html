@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Les sites statiques - Hugo &amp; Github Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://dfarau.github.io/hugo-pages/favicon.png">
+  <link rel="canonical" href="https://dfarau.github.io/hugo-pages/posts/static-site/" />
+    
+    
+    <link rel="stylesheet" href="/hugo-pages/css/style.min.9696cbe5cde1770cb07bc22cab0a0f583a91b5eccbd6d13ca03c8807df36eb75.css">
+    <link rel="stylesheet" href="/hugo-pages/assets/css/extended.min.9729f28a5087b689b946e103d96abd63bfd37b1417effa251dbf798312e3fba5.css">
+    <link rel="stylesheet" href="https://dfarau.github.io/hugo-pages/css//styles.css">
+  
+    <meta name="description" content="Explication d&#39;un site statique, ses avantages et inconvénients"/>
+    <meta property="og:title" content="Les sites statiques"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://dfarau.github.io/hugo-pages/posts/static-site/"/>
+    
+    <meta property="og:description" content="Explication d&#39;un site statique, ses avantages et inconvénients"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
+  
+
+  
+</head>
+
+
+
+
+<body class='page frame '>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-home">
+                    <a href="https://dfarau.github.io/hugo-pages/">Home</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-blog">
+                    <a href="https://dfarau.github.io/hugo-pages/posts/">Blog</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-tags">
+                    <a href="https://dfarau.github.io/hugo-pages/tags/">Tags</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-contact">
+                    <a href="https://dfarau.github.io/hugo-pages/contact/">Contact</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/hugo-pages/">Hugo &amp; Github Pages</a>
+  <div class="menu-main">
+    <ul>
+      
+      
+      
+      
+      <li class="menu-item-home ">
+        <a href="/hugo-pages/">
+          
+          <span>Home</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-blog ">
+        <a href="/hugo-pages/posts/">
+          
+          <span>Blog</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-tags ">
+        <a href="/hugo-pages/tags/">
+          
+          <span>Tags</span>
+        </a>
+      </li>
+      
+      
+      
+      <li class="menu-item-contact ">
+        <a href="/hugo-pages/contact/">
+          
+          <span>Contact</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <head>
+  </head>
+  <body>
+    <div class="blog">
+      
+      <div class="intro">
+        
+        <h1>Les sites statiques<span class="dot">.</span></h1>   
+      </div>
+      <div class="content">
+        <h2 id="introduction">Introduction</h2>
+<p>Des performances améliorées, une sécurité accrue et une facilité d&rsquo;utilisation sont autant de raisons qui rendent les générateurs de sites statiques attrayants.</p>
+<p>L&rsquo;objectif des générateurs de sites web est de transformer le contenu en fichiers HTML. La plupart d&rsquo;entre eux sont des &ldquo;générateurs de sites dynamiques&rdquo;. Cela signifie que le serveur HTTP, c&rsquo;est-à-dire le programme qui envoie les fichiers au navigateur pour être visualisés, exécute le générateur pour créer un nouveau fichier HTML chaque fois qu&rsquo;un utilisateur final demande une page.</p>
+<p>Au fil du temps, les générateurs de sites dynamiques ont été programmés pour mettre en cache leurs fichiers HTML afin d&rsquo;éviter des retards inutiles dans la fourniture des pages aux utilisateurs finaux. Une page mise en cache est une version statique d&rsquo;une page web.</p>
+<h2 id="les-avantages">Les avantages</h2>
+<ul>
+<li>
+<p><strong>Rapidité</strong> : les sites statiques se démarquent par leur rapidité. Contrairement aux sites dynamiques, ils évitent les requêtes de base de données et les processus de traitement à chaque demande. Les pages HTML statiques sont directement servies par le serveur, garantissant une réponse quasi instantanée.</p>
+</li>
+<li>
+<p><strong>Contrôle de version pour le contenu</strong> : dans un projet, le contrôle de version est essentiel. Les sites statiques stockent le contenu, comme les articles d&rsquo;un blog, sous forme de fichiers plats dans un référentiel. Cela permet un travail collaboratif, un suivi clair des modifications, et même la possibilité pour les lecteurs de signaler des erreurs ou d&rsquo;apporter des corrections.</p>
+</li>
+<li>
+<p><strong>Sécurité</strong> : comparés aux plates-formes dynamiques populaires comme WordPress, les sites statiques sont souvent plus sûrs. Les risques liés aux failles de sécurité, fréquents dans les systèmes complexes, sont réduits car les sites statiques se contentent de servir des pages HTML simples, minimisant ainsi les vulnérabilités.</p>
+</li>
+<li>
+<p><strong>Moins de complexité avec le serveur</strong> : l&rsquo;installation et la maintenance des infrastructures pour les sites dynamiques peuvent être complexes en raison des différentes versions de logiciels, dépendances et configurations. Les sites statiques simplifient cela en générant des fichiers HTML qui peuvent être servis sur n&rsquo;importe quel serveur sans nécessiter une infrastructure complexe.</p>
+</li>
+<li>
+<p><strong>Gestion des pics de trafic</strong> : les sites statiques sont mieux préparés pour gérer les pics de trafic. Étant donné que les pages HTML statiques nécessitent peu de ressources serveur, ils sont plus résilients face à des augmentations soudaines du trafic par rapport aux sites dynamiques qui dépendent fortement des bases de données et du traitement intensif.</p>
+</li>
+</ul>
+<h2 id="les-inconvénients">Les inconvénients</h2>
+<ul>
+<li>
+<p><strong>Absence de contenu en temps réel</strong> : un site statique ne permet pas d&rsquo;avoir des données en temps réel, comme des indicateurs sur les tendances récentes ou un contenu changeant dynamiquement pour chaque visiteur. C&rsquo;est un compromis inhérent aux sites statiques, et il est crucial de se demander si cette limitation est compatible avec les besoins du site en termes d&rsquo;actualisation constante.</p>
+</li>
+<li>
+<p><strong>Absence de contribution utilisateur</strong> : ajouter du contenu généré par l&rsquo;utilisateur sur un site statique, comme des commentaires, est complexe. Bien que le traitement des données directement dans les pages statiques ne soit pas possible, des solutions alternatives existent. Par exemple, des services tiers peuvent gérer les commentaires et les rediriger vers vous par e-mail.</p>
+</li>
+<li>
+<p><strong>Absence d&rsquo;interface d&rsquo;administration conviviale</strong> : la publication sur un site statique requiert généralement des étapes manuelles, ce qui contraste avec la simplicité des plateformes dynamiques comme WordPress. Des alternatives incluent des interfaces web permettant l&rsquo;édition directe des fichiers sur GitHub ou des applications mobiles facilitant l&rsquo;écriture et la publication en déplacement.</p>
+</li>
+</ul>
+
+      </div>
+    </div>
+  </body>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/DFarau" title="github" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-linkedin">
+        <a href="https://www.linkedin.com/in/doriane-farau-a00a46171/" title="linkedin" target="_blank" rel="noopener">
+          <img src="/hugo-pages/images/social/linkedin.svg" width="24" height="24" alt="linkedin"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+    <script type="text/javascript" src="/hugo-pages/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+</body>
+</html>

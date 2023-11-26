@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github-Pages on Hugo &amp; Github Pages</title>
+    <link>https://dfarau.github.io/hugo-pages/tags/github-pages/</link>
+    <description>Recent content in Github-Pages on Hugo &amp; Github Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dfarau.github.io/hugo-pages/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/github-pages/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/github-pages/</guid>
+      <description>GitHub Pages est un service d&amp;rsquo;hébergement web statique fourni par GitHub, la plateforme de développement collaborative basée sur Git. Il permet aux utilisateurs de publier des sites web directement à partir de leurs repositories GitHub, offrant ainsi une solution simple et gratuite pour partager des pages web, de la documentation, des portfolios, des blogs, et d&amp;rsquo;autres contenus statiques en ligne.
+Principales caractéristiques de GitHub Pages Hébergement gratuit : hébergement gratuit pour les sites web statiques, ce qui le rend accessible à un large éventail d&amp;rsquo;utilisateurs, en particulier pour les projets open source, les pages personnelles, les blogs, et les sites d&amp;rsquo;apprentissage.</description>
+    </item>
+    <item>
+      <title>Automatisation du déploiement et dossier public</title>
+      <link>https://dfarau.github.io/hugo-pages/posts/automatisation/</link>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://dfarau.github.io/hugo-pages/posts/automatisation/</guid>
+      <description>Automatisation du déploiement L&amp;rsquo;automatisation du déploiement avec le dossier &amp;ldquo;public&amp;rdquo; sur la branche &amp;ldquo;gh-pages&amp;rdquo; apporte une efficacité significative, une réduction des erreurs et une facilité de gestion, contribuant à un cycle de développement plus rapide et fiable
+Avantages Simplicité du processus : simplifie le processus de déploiement en évitant aux utilisateurs de se rappeler des étapes spécifiques. En automatisant, il suffit de déclencher le processus, et celui-ci s&amp;rsquo;occupe de tout, de la génération du site à son déploiement sur GitHub Pages.</description>
+    </item>
+  </channel>
+</rss>
