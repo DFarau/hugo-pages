@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <head>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css//contact.css">
+  </head>
+  <body>
+    <div class="intro">
+      <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>   
+    </div>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </body>
+{{ end }}

@@ -1,0 +1,5 @@
+{{ $linkType := .Get "link" }}
+
+<div class="link link-{{ $linkType }}">
+  {{ .Inner | markdownify }}
+</div>
