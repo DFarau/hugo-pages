@@ -1,0 +1,67 @@
+baseURL = 'https://dfarau.github.io/hugo-pages/'
+languageCode = 'en-us'
+title = 'Hugo & Github Pages'
+theme = 'hugo-winston-theme'
+
+[mediaTypes]
+  [mediaTypes."text/css"]
+    suffixes = ["css"]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  showPostsOnHomepage = false
+  showAuthorOnHomepage = true
+  showIntroContentOnHomepage = true
+  fontFamilyHeading = "Poppins"
+  fontFamilyParagraph = "Poppins"
+
+
+  google_analytics_id = ""
+  twitter_handle = "@zerostaticio"
+  showAuthorOnPosts = false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#7b16ff'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#eaeaea"
+  headingColor = "#1c1b1d"
+  textColor = "#4e5157"
+  dotColor = "#7b16ff"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+  fontFamilyMonospace = "monospace"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+  [menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    weight = 2
+    url = "/posts/"
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    weight = 3
+    url = "/tags/"
+  [[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    weight = 4
+    url = "/contact/"
